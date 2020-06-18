@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Form } from '@unform/web'
+import { MdAddCircleOutline, MdRemoveCircleOutline } from 'react-icons/md'
 
 import api from './services/api'
 
@@ -48,7 +49,7 @@ function App() {
             <li key={repository.id}>
               {repository.title}
               <button onClick={() => handleRemoveRepository(repository.id)}>
-                  Remover
+                  <MdRemoveCircleOutline /> Remover
               </button>
             </li>
           ))
@@ -61,7 +62,7 @@ function App() {
           id="repo" 
           placeholder="Digite um repositório"
         />
-        <button type="submit" >Adicionar</button>
+        <button type="submit" > <MdAddCircleOutline /> Adicionar</button>
       </Form>
     </div>
   );
