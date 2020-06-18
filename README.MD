@@ -8,6 +8,7 @@
 ### Além do desafio
 <p>💻 Adicionei um tema diferente para a página.</p>
 <p>💻 Adicionei ícones e animações aos botões.</p>
+<p>💻 Adicionei um formulário para adicionar um repositório.</p>
 
 <div>
     <img src="github/print.png" width="600">
@@ -18,7 +19,6 @@
 <ul>
     <li>✔️ ReactJS</li>
     <li>✔️ NodeJS</li>
-    <li>✔️ Express</li>
     <li>✔️ Axios</li>
 </ul>
 
